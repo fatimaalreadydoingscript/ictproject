@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voices for Peace</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- CURSOR -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo">
+                <span class="logo-symbol">☽</span>
+                <span class="logo-text">Voices for Peace</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#conflict">Conflict</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#involved" class="nav-cta">Get Involved</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#conflict" class="mobile-link">Conflict</a></li>
+            <li><a href="#news" class="mobile-link">News</a></li>
+            <li><a href="#resources" class="mobile-link">Resources</a></li>
+            <li><a href="#forum" class="mobile-link">Forum</a></li>
+            <li><a href="#involved" class="mobile-link">Get Involved</a></li>
+        </ul>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="grid-lines"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-eyebrow reveal">
+                <span class="dot"></span>
+                <span>Public Awareness Campaign · March 2026</span>
+            </div>
+            <h1 class="hero-title reveal-delay-1">
+                <span class="title-line">Voices</span>
+                <span class="title-line italic">for</span>
+                <span class="title-line">Peace</span>
+            </h1>
+            <p class="hero-sub reveal-delay-2">
+                Accurate, balanced, and accessible information<br>
+                about the 2026 US–Iran conflict.
+            </p>
+            <div class="hero-actions reveal-delay-3">
+                <a href="#conflict" class="btn-primary">Explore the Conflict</a>
+                <a href="#news" class="btn-ghost">Latest News ↓</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+        <!-- Floating stats -->
+        <div class="hero-stats">
+            <div class="stat-pill reveal-delay-2">
+                <span class="stat-label">Verified Sources</span>
+                <span class="stat-num">47</span>
+            </div>
+            <div class="stat-pill reveal-delay-3">
+                <span class="stat-label">Languages</span>
+                <span class="stat-num">EN / FIL</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-text reveal">
+                    <span class="section-label">Our Mission</span>
+                    <h2>Informed citizens<br><em>advocate for peace.</em></h2>
+                    <p>We educate and empower communities with accurate, factual, and balanced information about the
+                        2026 US–Iran War — its humanitarian impact, and the importance of diplomacy and peaceful
+                        conflict resolution.</p>
+                </div>
+                <div class="mission-pillars reveal-delay-1">
+                    <div class="pillar">
+                        <div class="pillar-icon">◎</div>
+                        <h3>Informational</h3>
+                        <p>Comprehensive background, timelines, fact sheets, and explainers about the conflict, its root
+                            causes, and humanitarian consequences.</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-icon">◈</div>
+                        <h3>News Aggregator</h3>
+                        <p>Curated, vetted news from credible local and international sources — filtered for accuracy
+                            and balance.</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-icon">◉</div>
+                        <h3>Community Forum</h3>
+                        <p>Moderated discussion boards where users engage in dialogue, share perspectives, and
+                            participate in structured debates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONFLICT -->
+    <section class="conflict" id="conflict">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">About the Conflict</span>
+                <h2>Understanding the<br><em>2026 US–Iran War</em></h2>
+            </div>
+
+            <!-- TIMELINE -->
+            <div class="timeline reveal-delay-1">
+                <div class="timeline-label">Key Timeline</div>
+                <div class="timeline-track">
+                    <div class="timeline-item" data-year="1979">
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <span class="tl-year">1979</span>
+                            <p>Iranian Revolution. US-Iran diplomatic relations severed.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="2015">
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <span class="tl-year">2015</span>
+                            <p>JCPOA nuclear deal signed between Iran and world powers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="2018">
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <span class="tl-year">2018</span>
+                            <p>US withdraws from JCPOA. Sanctions reinstated. Tensions escalate.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="2026">
+                        <div class="tl-dot active"></div>
+                        <div class="tl-content">
+                            <span class="tl-year active">Feb 2026</span>
+                            <p>US military strikes launched. Active conflict begins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KEY AREAS -->
+            <div class="key-areas reveal-delay-2">
+                <div class="area-card">
+                    <div class="area-num">01</div>
+                    <h3>Humanitarian Impact</h3>
+                    <p>Documented casualties, civilian infrastructure damage, displacement, and refugee data from
+                        independent humanitarian organizations.</p>
+                    <a href="#resources" class="area-link">View Data →</a>
+                </div>
+                <div class="area-card">
+                    <div class="area-num">02</div>
+                    <h3>Key Actors</h3>
+                    <p>Profiles of governments, military forces, diplomatic bodies, and humanitarian organizations
+                        involved in the conflict.</p>
+                    <a href="#resources" class="area-link">View Profiles →</a>
+                </div>
+                <div class="area-card">
+                    <div class="area-num">03</div>
+                    <h3>Global Economic Impact</h3>
+                    <p>Effects on oil markets, the Strait of Hormuz disruption, and cascading effects on international
+                        supply chains.</p>
+                    <a href="#resources" class="area-link">View Analysis →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="news" id="news">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">News Aggregator</span>
+                <h2>Verified. Vetted.<br><em>Balanced.</em></h2>
+                <p class="section-desc">All articles sourced from editorially credible outlets and reviewed for factual
+                    accuracy before publication.</p>
+            </div>
+
+            <!-- FILTER BAR -->
+            <div class="filter-bar reveal-delay-1">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="military">Military</button>
+                <button class="filter-btn" data-filter="diplomacy">Diplomacy</button>
+                <button class="filter-btn" data-filter="humanitarian">Humanitarian</button>
+                <button class="filter-btn" data-filter="economy">Economy</button>
+            </div>
+
+            <!-- NEWS GRID -->
+            <div class="news-grid reveal-delay-2">
+                <article class="news-card featured" data-category="diplomacy">
+                    <div class="news-tag diplomacy">Diplomacy</div>
+                    <div class="news-verified">✓ Verified</div>
+                    <h3>UN Security Council convenes emergency session as ceasefire talks stall</h3>
+                    <p>Representatives from 15 member states gathered in Geneva to discuss a proposed 72-hour
+                        humanitarian pause in the conflict, with negotiations ongoing.</p>
+                    <div class="news-meta">
+                        <span class="news-source">Reuters</span>
+                        <span class="news-date">Mar 26, 2026</span>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="humanitarian">
+                    <div class="news-tag humanitarian">Humanitarian</div>
+                    <div class="news-verified">✓ Verified</div>
+                    <h3>Red Crescent reports 2.3M displaced in western Iran since February</h3>
+                    <p>ICRC field teams document mass displacement as civilian infrastructure faces mounting pressure
+                        from sustained conflict operations.</p>
+                    <div class="news-meta">
+                        <span class="news-source">AP News</span>
+                        <span class="news-date">Mar 25, 2026</span>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="economy">
+                    <div class="news-tag economy">Economy</div>
+                    <div class="news-verified">✓ Verified</div>
+                    <h3>Oil prices remain elevated as Hormuz shipping routes partially disrupted</h3>
+                    <p>Brent crude trades above $140/barrel as tanker traffic through the Strait of Hormuz faces
+                        increased risk premiums from insurers.</p>
+                    <div class="news-meta">
+                        <span class="news-source">Financial Times</span>
+                        <span class="news-date">Mar 24, 2026</span>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="military">
+                    <div class="news-tag military">Military</div>
+                    <div class="news-fact-check">⚠ Contested</div>
+                    <h3>Conflicting reports on scope of ground operations in border regions</h3>
+                    <p>Multiple sources provide differing accounts of military activity near Iran's western border.
+                        Verification ongoing.</p>
+                    <div class="news-meta">
+                        <span class="news-source">BBC World</span>
+                        <span class="news-date">Mar 23, 2026</span>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="diplomacy">
+                    <div class="news-tag diplomacy">Diplomacy</div>
+                    <div class="news-verified">✓ Verified</div>
+                    <h3>Philippine Senate passes resolution calling for immediate ceasefire</h3>
+                    <p>The resolution urges both parties to pursue diplomatic channels and expresses concern for
+                        Filipino nationals in the region.</p>
+                    <div class="news-meta">
+                        <span class="news-source">Rappler</span>
+                        <span class="news-date">Mar 22, 2026</span>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="humanitarian">
+                    <div class="news-tag humanitarian">Humanitarian</div>
+                    <div class="news-verified">✓ Verified</div>
+                    <h3>MSF teams establish field hospitals amid civilian healthcare collapse</h3>
+                    <p>Médecins Sans Frontières deploys emergency medical units to three provinces as existing
+                        healthcare infrastructure faces overwhelming demand.</p>
+                    <div class="news-meta">
+                        <span class="news-source">Al Jazeera</span>
+                        <span class="news-date">Mar 21, 2026</span>
+                    </div>
+                </article>
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div class="newsletter-strip reveal-delay-2">
+                <div class="newsletter-text">
+                    <h3>Daily Digest</h3>
+                    <p>Curated conflict news delivered to your inbox every morning.</p>
+                </div>
+                <form class="newsletter-form" id="newsletter-form" onsubmit="handleNewsletter(event)">
+                    <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESOURCES -->
+    <section class="resources" id="resources">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Educational Resources</span>
+                <h2>For students,<br><em>educators, and you.</em></h2>
+            </div>
+            <div class="resources-grid reveal-delay-1">
+
+                <div class="resource-card download">
+                    <div class="resource-icon">⬇</div>
+                    <div class="resource-type">Infographic</div>
+                    <h3>Historical Timeline: US–Iran Relations 1979–2026</h3>
+                    <p>Visual, shareable infographic tracing five decades of diplomatic tension and conflict.</p>
+                    <a href="#" class="resource-btn"
+                        onclick="simulateDownload(event,'timeline-infographic.pdf')">Download PDF</a>
+                </div>
+
+                <div class="resource-card download">
+                    <div class="resource-icon">⬇</div>
+                    <div class="resource-type">Guide</div>
+                    <h3>Media Literacy: Identifying Propaganda &amp; Misinformation</h3>
+                    <p>A practical guide for evaluating news sources and recognizing bias in conflict coverage.</p>
+                    <a href="#" class="resource-btn"
+                        onclick="simulateDownload(event,'media-literacy-guide.pdf')">Download PDF</a>
+                </div>
+
+                <div class="resource-card download">
+                    <div class="resource-icon">⬇</div>
+                    <div class="resource-type">Educator Kit</div>
+                    <h3>Classroom Discussion Guide: Conflict, Peace, and Diplomacy</h3>
+                    <p>Structured discussion prompts and activities for secondary and university classrooms.</p>
+                    <a href="#" class="resource-btn" onclick="simulateDownload(event,'discussion-guide.pdf')">Download
+                        PDF</a>
+                </div>
+
+                <div class="resource-card video">
+                    <div class="resource-icon">▶</div>
+                    <div class="resource-type">Video</div>
+                    <h3>Explainer: What is the JCPOA and Why Did It Collapse?</h3>
+                    <p>10-minute documentary-style explainer with verified data and expert commentary.</p>
+                    <a href="#" class="resource-btn" onclick="simulatePlay(event)">Watch Now</a>
+                </div>
+
+                <div class="resource-card video">
+                    <div class="resource-icon">▶</div>
+                    <div class="resource-type">Video</div>
+                    <h3>Humanitarian Crisis: A Ground-Level Report</h3>
+                    <p>Field footage and testimony from ICRC and MSF teams operating in affected areas.</p>
+                    <a href="#" class="resource-btn" onclick="simulatePlay(event)">Watch Now</a>
+                </div>
+
+                <div class="resource-card download">
+                    <div class="resource-icon">⬇</div>
+                    <div class="resource-type">Data Sheet</div>
+                    <h3>Humanitarian Impact Data: Casualties, Displacement, Infrastructure</h3>
+                    <p>Regularly updated figures from verified UN and NGO sources.</p>
+                    <a href="#" class="resource-btn" onclick="simulateDownload(event,'humanitarian-data.pdf')">Download
+                        PDF</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FORUM -->
+    <section class="forum" id="forum">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Community Forum</span>
+                <h2>Civil dialogue.<br><em>Expert voices.</em></h2>
+                <p class="section-desc">Moderated discussion on the conflict. Guest viewing is open — register to
+                    participate.</p>
+            </div>
+
+            <div class="forum-layout reveal-delay-1">
+                <!-- THREADS -->
+                <div class="forum-threads">
+                    <div class="forum-thread featured-thread">
+                        <div class="thread-badge">Expert Voice</div>
+                        <div class="thread-meta">
+                            <span class="thread-author">Prof. Maria Santos</span>
+                            <span class="thread-time">2h ago</span>
+                        </div>
+                        <h3>The role of the Strait of Hormuz in modern geopolitics: is a naval blockade imminent?</h3>
+                        <p class="thread-preview">Analyzing historical precedents and current military positioning, I
+                            argue that…</p>
+                        <div class="thread-stats">
+                            <span>↑ 284</span>
+                            <span>💬 63 replies</span>
+                            <span class="thread-tag">Economy</span>
+                        </div>
+                    </div>
+
+                    <div class="forum-thread">
+                        <div class="thread-meta">
+                            <span class="thread-author">peace_advocate_ph</span>
+                            <span class="thread-time">5h ago</span>
+                        </div>
+                        <h3>Media framing of Iranian casualties vs. US military losses — a comparative analysis</h3>
+                        <div class="thread-stats">
+                            <span>↑ 142</span>
+                            <span>💬 38 replies</span>
+                            <span class="thread-tag">Media</span>
+                        </div>
+                    </div>
+
+                    <div class="forum-thread">
+                        <div class="thread-meta">
+                            <span class="thread-author">Student_DLSU</span>
+                            <span class="thread-time">8h ago</span>
+                        </div>
+                        <h3>Should the Philippines take a formal stance? Arguments for and against neutrality</h3>
+                        <div class="thread-stats">
+                            <span>↑ 98</span>
+                            <span>💬 51 replies</span>
+                            <span class="thread-tag">Diplomacy</span>
+                        </div>
+                    </div>
+
+                    <div class="forum-thread">
+                        <div class="thread-meta">
+                            <span class="thread-author">history_teacher_mnl</span>
+                            <span class="thread-time">12h ago</span>
+                        </div>
+                        <h3>Historical parallels: the Gulf War, the Iraq War, and what we can learn from them</h3>
+                        <div class="thread-stats">
+                            <span>↑ 77</span>
+                            <span>💬 29 replies</span>
+                            <span class="thread-tag">History</span>
+                        </div>
+                    </div>
+
+                    <div class="forum-register">
+                        <p>Join 1,400+ registered members in the discussion.</p>
+                        <div class="forum-cta-btns">
+                            <button class="btn-primary" onclick="openModal('register')">Create Account</button>
+                            <button class="btn-ghost" onclick="openModal('login')">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SIDEBAR -->
+                <aside class="forum-sidebar">
+                    <div class="sidebar-block">
+                        <h4>Upcoming Events</h4>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <span class="ev-day">04</span>
+                                <span class="ev-mon">Apr</span>
+                            </div>
+                            <div class="event-info">
+                                <strong>Panel: Paths to Ceasefire</strong>
+                                <p>Online · 7:00 PM PHT</p>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <span class="ev-day">11</span>
+                                <span class="ev-mon">Apr</span>
+                            </div>
+                            <div class="event-info">
+                                <strong>Media Literacy Workshop</strong>
+                                <p>Manila · 2:00 PM PHT</p>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <span class="ev-day">18</span>
+                                <span class="ev-mon">Apr</span>
+                            </div>
+                            <div class="event-info">
+                                <strong>Community Forum: Q&amp;A with Experts</strong>
+                                <p>Online · 6:00 PM PHT</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-block social-feed">
+                        <h4>#VoicesForPeace</h4>
+                        <div class="tweet">
+                            <span class="tweet-handle">@KarenDelosR</span>
+                            <p>"Finally a source that doesn't sensationalize. Been sharing #VoicesForPeace resources
+                                with my class all week."</p>
+                        </div>
+                        <div class="tweet">
+                            <span class="tweet-handle">@prof_Reyes</span>
+                            <p>"The media literacy guide is exactly what my journalism students needed. #VoicesForPeace"
+                            </p>
+                        </div>
+                        <div class="tweet">
+                            <span class="tweet-handle">@youth4peace_ph</span>
+                            <p>"Attended the online panel last night — powerful perspectives. #VoicesForPeace"</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- GET INVOLVED -->
+    <section class="involved" id="involved">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Get Involved</span>
+                <h2>Be part of the<br><em>movement.</em></h2>
+            </div>
+            <div class="involved-grid reveal-delay-1">
+                <div class="involved-card">
+                    <div class="involved-icon">✦</div>
+                    <h3>Volunteer</h3>
+                    <p>Help with content moderation, translation, outreach, and community management.</p>
+                    <button class="btn-outline" onclick="openModal('volunteer')">Sign Up to Volunteer</button>
+                </div>
+                <div class="involved-card">
+                    <div class="involved-icon">❤</div>
+                    <h3>Donate</h3>
+                    <p>Support the campaign's operations, content production, and digital advertising.</p>
+                    <button class="btn-outline" onclick="openModal('donate')">Support the Campaign</button>
+                </div>
+                <div class="involved-card">
+                    <div class="involved-icon">✉</div>
+                    <h3>Contact</h3>
+                    <p>Reach out to the project team for partnerships, media inquiries, or general questions.</p>
+                    <button class="btn-outline" onclick="openModal('contact')">Get in Touch</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-symbol">☽</span>
+                    <span class="footer-name">Voices for Peace</span>
+                    <p>A public awareness and education campaign on the 2026 US–Iran War.</p>
+                    <p class="footer-contact">
+                        Lead Manager: John Ivhan G. Oyanib<br>
+                        <a href="mailto:jgoyanib3449@student.fatima.edu.ph">jgoyanib3449@student.fatima.edu.ph</a><br>
+                        09273206433
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="#conflict">About the Conflict</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#forum">Community Forum</a></li>
+                        <li><a href="#involved">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#" onclick="simulateDownload(event,'timeline-infographic.pdf')">Timeline
+                                Infographic</a></li>
+                        <li><a href="#" onclick="simulateDownload(event,'media-literacy-guide.pdf')">Media Literacy
+                                Guide</a></li>
+                        <li><a href="#" onclick="simulateDownload(event,'discussion-guide.pdf')">Classroom Guide</a>
+                        </li>
+                        <li><a href="#" onclick="simulateDownload(event,'humanitarian-data.pdf')">Humanitarian Data</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Language</h4>
+                    <ul class="lang-switcher">
+                        <li><button class="lang-btn active" onclick="switchLang('en')">English</button></li>
+                        <li><button class="lang-btn" onclick="switchLang('fil')">Filipino</button></li>
+                    </ul>
+                    <div class="footer-accessibility">
+                        <h4>Accessibility</h4>
+                        <button onclick="toggleContrast()" class="access-btn">High Contrast</button>
+                        <div class="font-size-ctrl">
+                            <button onclick="changeFontSize(-1)" aria-label="Decrease font size">A−</button>
+                            <button onclick="changeFontSize(1)" aria-label="Increase font size">A+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Voices for Peace. All content fact-checked and source-cited.</p>
+                <p>A non-partisan public education initiative.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+        <div class="modal" id="modal" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
